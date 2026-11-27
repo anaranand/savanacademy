@@ -8,6 +8,31 @@
 <meta property="og:title" content="{{ page.og_title | default: page.title | escape }}">
 <meta property="og:description" content="{{ page.og_description | default: page.description | escape }}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Savan Academy">
+<meta property="og:image" content="{{ site.url }}/images/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Savan Academy: competition coaching for middle and high school students">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.og_title | default: page.title | escape }}">
+<meta name="twitter:description" content="{{ page.og_description | default: page.description | escape }}">
+<meta name="twitter:image" content="{{ site.url }}/images/og-image.png">
+{% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "{{ site.url }}/#organization",
+  "name": "Savan Academy",
+  "url": "{{ site.url }}/",
+  "logo": "{{ site.url }}/icon-512.png",
+  "image": "{{ site.url }}/images/og-image.png",
+  "description": "Competition coaching for middle and high school students: National Science Bowl, UIL, BPA, speech and debate, and AMC 8, 10 and 12."
+}
+</script>
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
