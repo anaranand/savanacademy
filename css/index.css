@@ -7,3 +7,7 @@ a{color:#1B2A6B}a:hover{color:#0B1440}
 @keyframes sv-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.sv-track{animation:none}.sv-marquee{overflow-x:auto}}
 h1,h2,h3{font-family:'Plus Jakarta Sans','Inter',sans-serif}
+.sv-dd:hover .sv-dd-menu,.sv-dd:focus-within .sv-dd-menu{display:block!important}
+.sv-dd-menu a:hover{background:#F4F6FB}
+.sv-chev{transition:transform .15s ease}
+.sv-dd:hover .sv-chev,.sv-dd:focus-within .sv-chev{transform:rotate(180deg)}
