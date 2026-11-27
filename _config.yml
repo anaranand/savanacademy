@@ -1,0 +1,16 @@
+url: "https://savanacademy.com"
+title: Savan Academy
+exclude:
+  - CNAME
+  - README.md
+  - messaging-house.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - science-bowl/data
+  - science-bowl/db
+  - science-bowl/src
+  - science-bowl/tests
+  - science-bowl/pyproject.toml
+  - science-bowl/uv.lock
+  - science-bowl/README.md
