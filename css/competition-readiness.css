@@ -1,0 +1,9 @@
+body{margin:0;font-family:'Inter',system-ui,sans-serif;color:#141B2D;background:#FFFFFF}
+a{color:#1B2A6B}a:hover{color:#0B1440}
+.sv-marquee{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.sv-track{display:flex;width:max-content;animation:sv-scroll 45s linear infinite}
+.sv-marquee:hover .sv-track{animation-play-state:paused}
+.sv-group{display:flex;gap:16px;padding-right:16px}
+@keyframes sv-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.sv-track{animation:none}.sv-marquee{overflow-x:auto}}
+h1,h2,h3{font-family:'Plus Jakarta Sans','Inter',sans-serif}
